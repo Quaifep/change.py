@@ -3,7 +3,7 @@
 # Description: Gives change for less than a dollar in highest amount.
 
 print("Please enter an amount in cents less than a dollar.")
-coins = float(input())
+coins = int(input())
 print("Your change will be:")
 print("Q:", coins // 25)
 coins = coins % 25
